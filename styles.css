@@ -1,0 +1,79 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  background-color: #00cc99;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 250px;
+  font-weight: bold;
+  font-size: 40px
+}
+.title{
+  text-transform: uppercase;
+}
+.subtitle {
+  font-weight: normal;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-transform: none;
+}
+.navigation {
+  background-color: black;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-name {
+  font-weight: bold;
+  padding-left: 20px;
+}
+.navigation-buttons {
+  padding: 10px 20px;
+}
+.buttons{
+  display: flex;
+  direction: row;
+
+}
+.main {
+  text-align: center;
+}
+.line {
+  background-color:  #009999;;
+  width: 80px;
+  height: 3px;
+  border: none;
+}
+.paragraph-name {
+  text-transform: uppercase;
+  padding: 100px 130px 20px 130px;
+  font-size: 35px
+}
+.discription {
+  font-size: 20px;
+  text-transform: none;
+
+}
+ .speakers {
+  display: flex;
+  direction: row;
+  padding: 30px 130px 30px 130px;
+}
+.speakers-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.speakers-discription {
+  text-transform: none;
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 20px;
+}
